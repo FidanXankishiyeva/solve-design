@@ -18,6 +18,6 @@ function closeMenu(){
     menulist.style.display='none'
     closeBtn.style.display='none'
     openBtn.style.display='block'
-    mainPage.style.display='block'
+    // mainPage.style.display='block'
 }
 

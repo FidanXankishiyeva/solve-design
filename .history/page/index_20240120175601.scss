@@ -109,7 +109,6 @@ min-height: 100vh;
         justify-content: space-between;
         background: var(--background-default, #EDEDED);
         .menu-box{
-          margin-right: 121px;
           h4{
             margin-bottom: 48px;
             color: var(--text-default, #343339);
@@ -152,14 +151,9 @@ min-height: 100vh;
           }
           ul{
             display: flex;
-           
             li{
               display: flex;
-              align-items: center;
               margin-right: 20px;
-              img{
-                margin-right: 20px;
-              }
               .about-featured{
                 h5{
                   color: var(--text-default, #343339);

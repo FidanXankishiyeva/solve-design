@@ -2,18 +2,16 @@
 .container {
   #home-page {
     width: 100%;
-    height: 1330px;
     /* padding: 74px 60px 170px 60px; */
-    background-image: url("../assets/img/jean-philippe-delberghe-feijc-nqWKM-unsplash\ 2.png");
+    background-image: url("../assets/img/jean-philippe-delberghe-feijc-nqWKM-unsplash\ 2.svg");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-min-height: 100vh;
+    background-size: 100
+
     nav {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 50px;
-      padding-bottom: 0;
       h1 {
         color: var(--text-inverse, #fff);
         font-family: Quicksand;
@@ -101,7 +99,7 @@ min-height: 100vh;
     .menu-list{
       width: 100%;
       margin-top: 60px;
-      display: none;
+      /* display: none; */
       position: absolute;
       .fleksboks{
         padding: 48px 160px;
@@ -109,7 +107,6 @@ min-height: 100vh;
         justify-content: space-between;
         background: var(--background-default, #EDEDED);
         .menu-box{
-          margin-right: 121px;
           h4{
             margin-bottom: 48px;
             color: var(--text-default, #343339);
@@ -152,14 +149,7 @@ min-height: 100vh;
           }
           ul{
             display: flex;
-           
             li{
-              display: flex;
-              align-items: center;
-              margin-right: 20px;
-              img{
-                margin-right: 20px;
-              }
               .about-featured{
                 h5{
                   color: var(--text-default, #343339);
@@ -191,7 +181,7 @@ min-height: 100vh;
 
     .main-page {
       h4 {
-        margin-top: 200px;
+        /* margin-top: 266px; */
         color: var(--text-inverse, #fff);
         text-align: center;
         font-family: Tinos;

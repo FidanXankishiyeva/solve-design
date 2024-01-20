@@ -1,15 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Tinos&display=swap");
 .container #home-page {
   width: 100%;
-  padding: 74px 60px 170px 60px;
-  background-image: url("../assets/img/jean-philippe-delberghe-feijc-nqWKM-unsplash 2.svg");
+  height: 1330px;
+  /* padding: 74px 60px 170px 60px; */
+  background-image: url("../assets/img/jean-philippe-delberghe-feijc-nqWKM-unsplash 2.png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
+  min-height: 100vh;
 }
 .container #home-page nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 50px;
+  padding-bottom: 0;
 }
 .container #home-page nav h1 {
   color: var(--text-inverse, #fff);
@@ -89,12 +93,16 @@
   width: 100%;
   margin-top: 60px;
   display: none;
+  position: absolute;
 }
 .container #home-page .menu-list .fleksboks {
   padding: 48px 160px;
   display: flex;
   justify-content: space-between;
   background: var(--background-default, #EDEDED);
+}
+.container #home-page .menu-list .fleksboks .menu-box {
+  margin-right: 121px;
 }
 .container #home-page .menu-list .fleksboks .menu-box h4 {
   margin-bottom: 48px;
@@ -136,6 +144,14 @@
 .container #home-page .menu-list .fleksboks .featured-box ul {
   display: flex;
 }
+.container #home-page .menu-list .fleksboks .featured-box ul li {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.container #home-page .menu-list .fleksboks .featured-box ul li img {
+  margin-right: 20px;
+}
 .container #home-page .menu-list .fleksboks .featured-box ul li .about-featured h5 {
   color: var(--text-default, #343339);
   font-family: "Quicksand";
@@ -157,7 +173,7 @@
   text-transform: uppercase;
 }
 .container #home-page .main-page h4 {
-  margin-top: 266px;
+  margin-top: 200px;
   color: var(--text-inverse, #fff);
   text-align: center;
   font-family: Tinos;
@@ -417,4 +433,4 @@
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
-}/*# sourceMappingURL=index.css.map */
+}

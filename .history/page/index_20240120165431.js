@@ -1,7 +1,7 @@
 let openBtn=document.querySelector ('.open-menu')
 let menulist=document.querySelector ('.menu-list')
 let closeBtn=document.querySelector ('.close-menu')
-// let mainPage=document.querySelector ('.main-page')
+let mainPage=document.querySelector ('.main-page')
 // open menu action
 openBtn.addEventListener('click', openMenu)
 

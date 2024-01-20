@@ -9,7 +9,7 @@ function openMenu(){
     menulist.style.display='block'
     closeBtn.style.display='block'
     openBtn.style.display='none'
-    mainPage.style.display='none'
+    // mainPage.style.display='none'
 }
 
 // close menu action 
@@ -18,6 +18,6 @@ function closeMenu(){
     menulist.style.display='none'
     closeBtn.style.display='none'
     openBtn.style.display='block'
-    mainPage.style.display='block'
+    // mainPage.style.display='block'
 }
 

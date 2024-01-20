@@ -9,7 +9,7 @@ function openMenu(){
     menulist.style.display='block'
     closeBtn.style.display='block'
     openBtn.style.display='none'
-    mainPage.style.display='none'
+    // mainPage.style.display='none'
 }
 
 // close menu action 
