@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Tinos&display=swap");
+.container #home-page {
+  width: 100%;
+  padding: 74px 60px 170px 60px;
+  background-image: url("../assets/img/jean-philippe-delberghe-feijc-nqWKM-unsplash 2.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.container #home-page nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container #home-page nav h1 {
+  color: var(--text-inverse, #fff);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.container #home-page nav h2 {
+  color: var(--text-inverse, #fff);
+  font-family: Tinos;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+.container #home-page nav ul {
+  display: flex;
+  align-items: center;
+}
+.container #home-page nav ul li:nth-child(2) .cart {
+  display: flex;
+}
+.container #home-page nav ul li:nth-child(2) .cart h3 {
+  color: var(--text-inverse, #fff);
+  text-align: right;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.container #home-page nav ul li:nth-child(2) .cart button {
+  width: 22px;
+  height: 22px;
+  margin-left: 8px;
+  margin-right: 48px;
+  border-radius: 100px;
+}
+.container #home-page nav ul li:nth-child(2) .cart button p {
+  margin-left: 7px;
+  color: var(--text-default, #343339);
+  text-align: right;
+  font-family: Quicksand;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.container #home-page nav ul li p {
+  margin-right: 48px;
+  color: var(--text-inverse, #fff);
+  text-align: right;
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.container #home-page nav ul li .open-menu {
+  background: none;
+}
+.container #home-page nav ul li .close-menu {
+  display: none;
+  background: none;
+}
+.container #home-page .menu-list {
+  width: 100%;
+  margin-top: 60px;
+  display: none;
+}
+.container #home-page .menu-list .fleksboks {
+  padding: 48px 160px;
+  display: flex;
+  justify-content: space-between;
+  background: var(--background-default, #EDEDED);
+}
+.container #home-page .menu-list .fleksboks .menu-box h4 {
+  margin-bottom: 48px;
+  color: var(--text-default, #343339);
+  font-family: Tinos;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+.container #home-page .menu-list .fleksboks .menu-box ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+.container #home-page .menu-list .fleksboks .menu-box ul li {
+  color: var(--text-default, #343339);
+  font-family: "Quicksand";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.container #home-page .menu-list .fleksboks .featured-box h4 {
+  margin-bottom: 48px;
+  color: var(--text-default, #343339);
+  font-family: Tinos;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+.container #home-page .menu-list .fleksboks .featured-box ul {
+  display: flex;
+}
+.container #home-page .menu-list .fleksboks .featured-box ul li .about-featured h5 {
+  color: var(--text-default, #343339);
+  font-family: "Quicksand";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.container #home-page .menu-list .fleksboks .featured-box ul li .about-featured p {
+  color: var(--text-default, #343339);
+  font-family: "Quicksand";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.container #home-page .main-page h4 {
+  margin-top: 266px;
+  color: var(--text-inverse, #fff);
+  text-align: center;
+  font-family: Tinos;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 90%;
+  text-transform: uppercase;
+}
+.container #home-page .main-page button {
+  display: block;
+  margin: auto;
+  padding: 24px 40px;
+  margin-top: 64px;
+  background: none;
+  border-radius: 500px;
+  border: 1px solid #fff;
+}
+.container #home-page .main-page button a {
+  color: var(--text-inverse, #fff);
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.container #featured-page {
+  width: 100%;
+  padding: 128px 151px 207px 96px;
+  background: var(--background-default, #ededed);
+}
+.container #featured-page h1 {
+  margin-bottom: 96px;
+  color: var(--text-default, #343339);
+  text-align: center;
+  font-family: Tinos;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+}
+.container #featured-page ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container #featured-page ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container #featured-page ul li img {
+  width: 400px;
+  border-radius: 500px;
+  margin-bottom: 32px;
+}
+.container #featured-page ul li h2 {
+  margin-bottom: 8px;
+  color: var(--text-default, #343339);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.container #featured-page ul li h3 {
+  color: var(--text-default, #343339);
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.container #featured-page hr {
+  width: 100%;
+  height: 1px;
+  margin-top: 128px;
+  margin-bottom: 128px;
+  background: var(--border-default, #cecece);
+}
+.container #featured-page main .text-container {
+  display: flex;
+}
+.container #featured-page main .text-container h4 {
+  color: var(--text-default, #343339);
+  font-family: Tinos;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+.container #featured-page main .text-container .p-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 96px;
+}
+.container #featured-page main .text-container .p-box p {
+  width: 660px;
+  color: var(--text-default, #343339);
+  font-family: Quicksand;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+}
+.container #featured-page main .text-container .p-box button {
+  padding: 24px 40px;
+  border-radius: 500px;
+  border: 1px solid var(--background-primary, #343339);
+}
+.container #featured-page main .text-container .p-box button a {
+  color: var(--text-default, #343339);
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.container #solve-page {
+  width: 100%;
+  padding: 465px 521px;
+  background-image: url("../assets/img/images.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.container #rooms-page {
+  width: 100%;
+  padding: 128px 159px 0 160px;
+  background: var(--background-default, #ededed);
+}
+.container #rooms-page h1 {
+  color: var(--text-default, #343339);
+  text-align: center;
+  font-family: Tinos;
+  font-size: 160px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+}
+.container #rooms-page button {
+  display: block;
+  margin: auto;
+}
+.container #rooms-page button a {
+  color: var(--text-default, #343339);
+  font-family: Quicksand;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.container #rooms-page ul {
+  margin-top: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container #rooms-page ul li img {
+  width: 380px;
+}
+.container #rooms-page hr {
+  width: 100%;
+  height: 1px;
+  margin-top: 166px;
+  margin-bottom: 128px;
+  background: var(--border-default, #cecece);
+}
+.container #rooms-page .our-stores h2 {
+  color: var(--text-default, #343339);
+  font-family: NewYork;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+.container #rooms-page .our-stores ul li {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container #rooms-page .our-stores ul li img {
+  width: 250px;
+}
+.container #rooms-page .our-stores ul li .text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.container #rooms-page .our-stores ul li .text-box h3 {
+  color: var(--text-default, #343339);
+  font-family: NewYork;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+.container #rooms-page .our-stores ul li .text-box H4 {
+  color: var(--text-default, #343339);
+  font-family: Quicksand;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.container #menu-page {
+  width: 100%;
+  padding: 128px 260px 80px 260px;
+  background: var(--background-default, #ededed);
+}
+.container #menu-page .fleksboks {
+  display: flex;
+  justify-content: space-between;
+}
+.container #menu-page .fleksboks .box h1 {
+  margin-bottom: 48px;
+  color: var(--text-default, #343339);
+  font-family: Tinos;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  text-transform: uppercase;
+}
+.container #menu-page .fleksboks .box ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.container #menu-page .fleksboks .box ul li {
+  color: var(--text-default, #343339);
+  font-family: "Quicksand";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.container #menu-page p {
+  margin-top: 128px;
+  color: var(--text-default, #343339);
+  text-align: center;
+  font-family: "Quicksand";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}/*# sourceMappingURL=index.css.map */
